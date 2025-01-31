@@ -89,7 +89,6 @@ main .background .contain-flex{
     height:500px;
     display:flex;
     margin:0 auto;
-    height:500px;
 }
 
 main .background .contain-flex .first-item{
@@ -138,4 +137,39 @@ main .background #second-box-unique{
     width:70%;
     background-color:#228B23;
     height:900px;
+}
+
+
+/******************
+SESTA SEZIONE
+******************/
+
+main #sixth-section{
+    background-color:#23272A;
+    padding-top:10px;
+    padding-bottom:40px;
+}
+main #sixth-section .sixth-container{
+    height:580px;
+    width:70%;
+    display:flex;
+    margin:0 auto;
+    border: 2px dotted #000000;
+}
+
+main #first-item-sixth{
+    flex-grow:1;
+    background-color:#F18080;
+}
+
+main #second-item-sixth{
+    flex-grow:3;
+    background-color:#1EB2AA;
+    display:flex;
+    
+}
+
+.first-son-item, .second-son-item, .third-son-item, .fourth-son-item{
+    border: 2px dotted #FFFFFF;
+    flex-grow:1;
 }
