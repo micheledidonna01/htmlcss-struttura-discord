@@ -124,3 +124,18 @@ QUARTA SEZIONE
 ******************/
 
 /**NON C'E' NULLA **/
+
+
+
+/******************
+QUINTA SEZIONE
+******************/
+main .background:nth-child(5){
+    background-color:#D3D3D3;
+}
+
+main .background #second-box-unique{
+    width:70%;
+    background-color:#228B23;
+    height:900px;
+}
