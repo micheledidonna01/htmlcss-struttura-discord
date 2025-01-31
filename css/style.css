@@ -1,0 +1,54 @@
+/******************
+COMMAND
+******************/
+
+* {  
+    margin: 0;  
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+/******************
+INTESTAZIONE PAGINA
+******************/
+header{
+    background-color:#ADD8E6;
+    padding:18px 0;
+}
+
+header .flex-container{
+    display:flex;
+    width:70%;
+    margin:0 auto;
+    background-color:#DAA520;
+    border: 1px dotted #000000;
+    font-size:16px;
+}
+
+.flex-container .flex-item-lateral{
+    padding:14px;
+    flex-grow:1;
+}
+
+.flex-container .flex-item-central{
+    list-style-type: none;
+    display:flex;
+    padding:14px;
+    border-right:1px dotted #000000;
+    border-left:1px dotted #000000;
+    flex-grow:3;
+    justify-content:center;
+}
+
+.flex-container .flex-item-central > li{
+    margin-left:12px;
+    margin-right:12px;
+}
+
+header .flex-container .flex-item-lateral:last-child{
+    border-left:1px dotted #000000;
+    text-align:right;
+}
+header .flex-container .flex-item-lateral:first-child{
+    border-right:1px dotted #000000;
+}
