@@ -106,3 +106,17 @@ main .background .contain-flex .second-item{
     flex-grow:1;
 }
 
+/******************
+TERZA SEZIONE
+******************/
+
+main .background:nth-child(3){
+    background-color:#D3D3D3;
+}
+
+main .background .contain-flex #order1{
+    order:2;
+}
+main .background .contain-flex #order2{
+    order:1;
+}
