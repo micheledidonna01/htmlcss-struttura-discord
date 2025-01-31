@@ -173,3 +173,32 @@ main #second-item-sixth{
     border: 2px dotted #FFFFFF;
     flex-grow:1;
 }
+
+
+/******************
+PIEDE DELLA PAGINA
+******************/
+
+footer{
+    background-color:#23272A;
+    padding-top: 30px;
+    border-top: 2px solid #000000;
+    border-bottom:2px solid #000000;
+}
+
+footer .contain-flex{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    background-color:#7FFFD4;
+    width:70%;
+    height:80px;
+    margin: 0 auto;
+}
+
+footer .contain-flex .flex-item{
+    background-color:#FFB6C1;
+    border: 2px dotted #000000;
+    padding:10px;
+}
