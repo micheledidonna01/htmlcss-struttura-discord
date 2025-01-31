@@ -5,6 +5,7 @@ COMMAND
 * {  
     margin: 0;  
     padding: 0; 
+    box-sizing:border-box;
 }
 
 /******************
@@ -62,11 +63,13 @@ PRIMA SEZIONE
 ******************/
 
 main .background{
-    background-color:#00008B;
     padding-top:50px;
     padding-bottom:50px;
 }
 
+main #first-section{
+    background-color:#00008B;;
+}
 
 main .background .unique-box{
     width:50%;
@@ -74,5 +77,32 @@ main .background .unique-box{
     background-color:#EE82EF;
     margin: 0 auto;
     border:2px dotted black;
+}
+
+
+/******************
+SECONDA SEZIONE
+******************/
+main #second-section {
+
+}
+main .background .contain-flex{
+    width:70%;
+    height:500px;
+    display:flex;
+    margin:0 auto;
+    height:500px;
+}
+
+main .background .contain-flex .first-item{
+    border:2px dotted black;
+    background-color:#1F90FF;
+    flex-grow:2;
+}
+
+main .background .contain-flex .second-item{
+    border:2px dotted black;
+    background-color:#FFC0CA;
+    flex-grow:1;
 }
 
