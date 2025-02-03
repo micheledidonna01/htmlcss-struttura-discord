@@ -182,8 +182,8 @@ PIEDE DELLA PAGINA
 footer{
     background-color:#23272A;
     padding-top: 30px;
-    border-top: 2px solid #000000;
-    border-bottom:2px solid #000000;
+    border-top: 2px solid #FFFFFF;
+    padding-bottom: 5px;
 }
 
 footer .contain-flex{
